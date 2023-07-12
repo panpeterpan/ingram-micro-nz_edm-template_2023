@@ -1,0 +1,444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:v="urn:schemas-microsoft-com:vml">
+	<head>
+		<meta charset="utf-8" />
+		<!-- utf-8 works for most cases -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Forcing initial-scale shouldn't be necessary -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- Use the latest (edge) version of IE rendering engine -->
+		<title>%%subject%%</title>
+		<!-- The title tag shows in email notifications, like Android 4.4. -->
+		<!-- Please use an inliner tool to convert all CSS to inline as inpage or external CSS is removed by email clients -->
+		<!-- important in CSS is used to prevent the styles of currently inline CSS from overriding the ones mentioned in media queries when corresponding screen sizes are encountered -->
+
+		<!-- CSS Reset -->
+		<style type="text/css">
+			/* What it does: Remove spaces around the email design added by some email clients. */
+			/* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+			html,
+			body {
+				margin: 0 !important;
+				padding: 0 !important;
+				height: 100% !important;
+				width: 100% !important;
+			}
+			/* What it does: Stops email clients resizing small text. */
+			* {
+				-ms-text-size-adjust: 100%;
+				-webkit-text-size-adjust: 100%;
+			}
+			/* What it does: Forces Outlook.com to display emails full width. */
+			.ExternalClass {
+				width: 100%;
+			}
+			/* What is does: Centers email on Android 4.4 */
+			div[style*="margin: 16px 0"] {
+				margin: 0 !important;
+			}
+			/* What it does: Stops Outlook from adding extra spacing to tables. */
+			table,
+			td {
+				mso-table-lspace: 0pt !important;
+				mso-table-rspace: 0pt !important;
+			}
+
+			/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+			table {
+				border-spacing: 0 !important;
+				border-collapse: collapse !important;
+				table-layout: fixed !important;
+				margin: 0 auto !important;
+			}
+			table table table {
+				table-layout: auto;
+			}
+			/* What it does: Uses a better rendering method when resizing images in IE. */
+			img {
+				-ms-interpolation-mode: bicubic;
+			}
+			/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+			.yshortcuts a {
+				border-bottom: none !important;
+			}
+			/* What it does: Another work-around for iOS meddling in triggered links. */
+			a[x-apple-data-detectors] {
+				color: inherit !important;
+			}
+
+			@media screen and (max-device-width: 600px),
+				screen and (max-width: 600px) {
+				.w100pc {
+					width: 100% !important;
+					min-width: 100% !important;
+					max-width: 1000px !important;
+					height: auto !important;
+				}
+			}
+		</style>
+
+		<!-- Progressive Enhancements -->
+		<style type="text/css">
+			/* What it does: Hover styles for buttons */
+			.button-td,
+			.button-a {
+				transition: all 100ms ease-in;
+			}
+			.button-td:hover,
+			.button-a:hover {
+				background: #555555 !important;
+				border-color: #555555 !important;
+			}
+
+			/* Media Queries */
+			@media screen and (max-width: 600px) {
+				.email-container {
+					width: 100% !important;
+				}
+
+				/* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+				.fluid,
+				.fluid-centered {
+					max-width: 100% !important;
+					height: auto !important;
+					margin-left: auto !important;
+					margin-right: auto !important;
+				}
+				/* And center justify these ones. */
+				.fluid-centered {
+					margin-left: auto !important;
+					margin-right: auto !important;
+				}
+
+				/* What it does: Forces table cells into full-width rows. */
+				.stack-column,
+				.stack-column-center {
+					display: block !important;
+					width: 100% !important;
+					max-width: 100% !important;
+					direction: ltr !important;
+				}
+				/* And center justify these ones. */
+				.stack-column-center {
+					text-align: center !important;
+				}
+
+				/* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+				.center-on-narrow {
+					text-align: center !important;
+					display: block !important;
+					margin-left: auto !important;
+					margin-right: auto !important;
+					float: none !important;
+				}
+				table.center-on-narrow {
+					display: inline-block !important;
+				}
+				.mobile-padding-x-20 {
+					padding-left: 20px !important;
+					padding-right: 20px !important;
+				}
+				.mobile-padding-x-none {
+					padding-left: 0px !important;
+					padding-right: 0px !important;
+				}
+				.mobile-padding-none {
+					padding: 0 !important;
+				}
+				.mobile-hidden {
+					display: none;
+				}
+				.mobile-inner-table {
+					width: 90%;
+				}
+			}
+		</style>
+		<!--fix strange lines appearing only in outlook-->
+
+		<!--[if (gte mso 9)|(IE)]>
+			<style type="text/css">
+				body {
+					background-color: #e6e7e8 !important;
+				}
+			</style>
+		<![endif]-->
+	</head>
+	<body bgcolor="#E6E7E8" width="100%" style="margin: 0" yahoo="yahoo">
+    <table bgcolor="#E6E7E8" border="0" cellpadding="0" cellspacing="0" height="100%" style="border-collapse: collapse" width="100%">
+        <tbody>
+            <tr>
+                <td>
+                <center style="width: 100%"><!-- Visually Hidden Preheader Text : START -->
+                <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">&nbsp;</div>
+                <!-- Visually Hidden Preheader Text : END --><!-- Email Header : BEGIN -->
+
+                <table align="center" class="email-container" width="600">
+                    <tbody>
+                        <tr>
+                            <td align="center" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;padding: 20px 20px 0px 20px;" valign="top"><img alt="Ingram Micro" border="0" class="fluid" src="https://ingramnz.com/edm/template/ingram-logo-blue@2x.png" style="width: 150px" width="150"></td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;padding: 16px 20px;font-size: 10px;font-family: arial, helvetica, sans-serif;color: #676767;line-height: 12.5px;" valign="top">If you are having trouble reading this email, <a href="%%view_online%%" target="_blank">read the online version</a>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- Email Header : END --><!-- Email Body : BEGIN -->
+
+                <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="email-container" width="600">
+                    <tbody><!-- Hero Image, Flush : BEGIN -->
+                        <tr pardot-repeatable="" style="">
+                            <td class="full-width-image headerContent" pardot-region="header_image"><img align="middle" alt="" border="0" src="https://via.placeholder.com/600x300?text=placeholder+image+600x300" style="width: 100%; max-width: 600px; border-width: 0px; border-style: solid;" width="600"></td>
+                        </tr>
+                        <!-- Hero Image, Flush : END --><!-- 1 Column Text : BEGIN -->
+                        <tr pardot-repeatable="" style="">
+                            <td class="bodyContent" pardot-region="body_content00" style="padding: 40px; text-align: center; font-family: sans-serif; font-size: 16px; mso-height-rule: exactly; line-height: 22px; color: #555555;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut&nbsp;erat.<br>
+                            <br>
+                            <!-- Button : Begin -->
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="margin: auto">
+                                <tbody>
+                                    <tr>
+                                        <td class="button-td" style="border-radius: 3px; background: #222222; text-align: center;"><a class="button-a" href="#" style="background: #222222; border: 10px solid #222222; padding: 0 10px;color: #ffffff; font-family: sans-serif; font-size: 14px; line-height: 16px; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-weight: bold;"><!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->A Button<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> </a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- Button : END --></td>
+                        </tr>
+                        <!-- 1 Column Text : END --><!-- Two Even Columns : BEGIN -->
+                        <tr pardot-repeatable="" style="">
+                            <td align="center" class="bodyContent" pardot-region="body_content01" style="padding: 10px;" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="stack-column-center">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr style="">
+                                                    <td pardot-region="body_content01" style="padding: 10px; text-align: center"><img alt="" border="0" class="fluid" height="270" src="https://via.placeholder.com/270x270?text=270x270" style="width: 270px; height: 270px; border-width: 0px; border-style: solid;" width="270"></td>
+                                                </tr>
+                                                <tr style="">
+                                                    <td class="center-on-narrow" pardot-region="body_content01" style="font-family: sans-serif; font-size: 16px; mso-height-rule: exactly; line-height: 22px; color: #555555; padding: 10px 10px; text-align: left;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </td>
+                                        <td class="stack-column-center">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr style="">
+                                                    <td pardot-region="sidebar02" style="padding: 10px; text-align: center"><img alt="" border="0" class="fluid" height="270" src="https://via.placeholder.com/270x270?text=270x270" style="width: 270px; height: 270px; border-width: 0px; border-style: solid;" width="270"></td>
+                                                </tr>
+                                                <tr style="">
+                                                    <td class="center-on-narrow" pardot-region="body_content01" style="font-family: sans-serif; font-size: 16px; mso-height-rule: exactly; line-height: 22px; color: #555555; padding: 10px 10px; text-align: left;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </td>
+                        </tr>
+                        <!-- Two Even Columns : END --><!-- Three Even Columns : BEGIN -->
+                        <tr pardot-repeatable="" style="">
+                            <td align="center" style="padding: 10px;" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="stack-column-center" width="33.33%">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr style="">
+                                                    <td pardot-region="tiwc150_image00" style="padding: 10px; text-align: center"><img alt="" border="0" class="fluid" height="170" src="https://via.placeholder.com/170x170?text=170x170" style="width: 170px; height: 170px; border-width: 0px; border-style: solid;" width="170"></td>
+                                                </tr>
+                                                <tr style="">
+                                                    <td class="center-on-narrow" pardot-region="tiwc150_image00" style="font-family: sans-serif; font-size: 16px; mso-height-rule: exactly; line-height: 22px; color: #555555; padding: 10px 10px; text-align: left;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </td>
+                                        <td class="stack-column-center" width="33.33%">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr style="">
+                                                    <td pardot-region="tiwc150_image00" style="padding: 10px; text-align: center"><img alt="" border="0" class="fluid" height="170" src="https://via.placeholder.com/170x170?text=170x170" style="width: 170px; height: 170px; border-width: 0px; border-style: solid;" width="170"></td>
+                                                </tr>
+                                                <tr style="">
+                                                    <td class="center-on-narrow" pardot-region="tiwc150_image00" style="font-family: sans-serif; font-size: 16px; mso-height-rule: exactly; line-height: 22px; color: #555555; padding: 10px 10px; text-align: left;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </td>
+                                        <td class="stack-column-center" width="33.33%">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr style="">
+                                                    <td pardot-region="tiwc150_image00" style="padding: 10px; text-align: center"><img alt="" border="0" class="fluid" height="170" src="https://via.placeholder.com/170x170?text=170x170" style="width: 170px; height: 170px; border-width: 0px; border-style: solid;" width="170"></td>
+                                                </tr>
+                                                <tr style="">
+                                                    <td class="center-on-narrow" pardot-region="tiwc150_image00" style="font-family: sans-serif; font-size: 16px; mso-height-rule: exactly; line-height: 22px; color: #555555; padding: 10px 10px; text-align: left;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </td>
+                        </tr>
+                        <!-- Three Even Columns : END --><!-- Thumbnail Left, Text Right : BEGIN -->
+                        <tr pardot-repeatable="" style="">
+                            <td align="center" dir="ltr" pardot-region="sidebar00" style="padding: 10px;" valign="top" width="100%">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="stack-column-center" width="33.33%">
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td dir="ltr" style="padding: 0 10px;" valign="top"><img alt="" border="0" class="center-on-narrow" src="https://via.placeholder.com/170x170?text=170x170" style="width: 170px; border-width: 0px; border-style: solid;" width="170"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </td>
+                                        <td class="stack-column-center" width="66.66%">
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="center-on-narrow" dir="ltr" style="font-family: sans-serif; font-size: 16px; mso-height-rule: exactly; line-height: 22px; color: #555555; padding: 10px; text-align: left;" valign="top"><strong style="color:#111111;">Class aptent taciti sociosqu</strong><br>
+                                                    <br>
+                                                    Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<br>
+                                                    <br>
+                                                    <!-- Button : Begin -->
+                                                    <table border="0" cellpadding="0" cellspacing="0" class="center-on-narrow" style="float:left;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="button-td" style="border-radius: 3px; background: #222222; text-align: center;"><a class="button-a" href="http://www.google.com" style="background: #222222; border: 10px solid #222222; padding: 0 10px;color: #ffffff; font-family: sans-serif; font-size: 13px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-weight: bold;"><!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->A Button<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> </a></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- Button : END --></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </td>
+                        </tr>
+                        <!-- Thumbnail Left, Text Right : END --><!-- Thumbnail Right, Text Left : BEGIN -->
+                        <tr pardot-repeatable="" style="">
+                            <td align="center" dir="rtl" pardot-region="sidebar01" style="padding: 10px; background-color:#ffffff;" valign="top" width="100%">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tbody>
+                                    <tr style="">
+                                        <td class="stack-column-center" width="33.33%">
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td dir="ltr" style="padding: 0 10px;" valign="top"><img alt="" border="0" class="center-on-narrow" src="https://via.placeholder.com/170x170?text=170x170" style="width: 170px; border-width: 0px; border-style: solid;" width="170"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </td>
+                                        <td class="stack-column-center" pardot-region="sidebar03" width="66.66%">
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="center-on-narrow" dir="ltr" style="font-family: sans-serif; font-size: 16px; mso-height-rule: exactly; line-height: 22px; color: #555555; padding: 10px; text-align: left;" valign="top"><strong style="color:#111111;">Class aptent taciti sociosqu</strong><br>
+                                                    <br>
+                                                    Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<br>
+                                                    <br>
+                                                    <!-- Button : Begin -->
+                                                    <table border="0" cellpadding="0" cellspacing="0" class="center-on-narrow" style="float:left;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="button-td" style="border-radius: 3px; background: #222222; text-align: center;"><a class="button-a" href="http://www.google.com" style="background: #222222; border: 10px solid #222222; padding: 0 10px;color: #ffffff; font-family: sans-serif; font-size: 13px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-weight: bold;"><!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->A Button<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> </a></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- Button : END --></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </td>
+                        </tr>
+                        <!-- Thumbnail Right, Text Left : END -->
+                    </tbody>
+                </table>
+                <!-- Email Body : END --><!-- Email Footer : BEGIN -->
+
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="email-container" width="600">
+                    <tbody>
+                        <tr pardot-repeatable="" style="border-width: 0px;">
+                            <td style="border-width: 0px;"><img align="middle" alt="Footer Ingram graphic" border="0" src="https://ingramnz.com/edm/template/footer_graphic.png" style="width: 100%; max-width: 600px; border-width: 0px;background-color: rgb(46, 118, 186);" width="600"></td>
+                        </tr>
+                        <tr pardot-repeatable="" style="background-color: rgb(46, 118, 186);">
+                            <td align="center" style="padding: 15px 0;" valign="bottom">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tbody>
+                                    <tr pardot-repeatable="" style="">
+                                        <td class="stack-column-center" valign="top" width="33.33%">
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr style="background-color: #2e76ba">
+                                                    <td style="text-align: center" valign="bottom"><a href="https://nz.ingrammicro.com/" target="_blank"><img alt="alt_text" border="0" class="fluid" src="https://ingramnz.com/edm/template/ingram-logo-white.png" style="width: 140px" width="140"></a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </td>
+                                        <td class="stack-column-center" valign="top" width="33.33%">
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="font-family: Arial, Helvetica, sans-serif;font-size: 9.5px;mso-height-rule: exactly;line-height: 12px;color: #fff;padding: 0 10px;text-align: center;font-weight: 300;" valign="bottom">Ingram Micro New Zealand<br>
+                                                    78 Apollo Drive, Rosedale<br>
+                                                    Auckland, 0632 - New Zealand<br>
+                                                    <br>
+                                                    Copyright © 2023, All rights reserved.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </td>
+                                        <td class="stack-column-center" style="padding-top:7px;" valign="top" width="33.33%">
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td valign="middle"><a href="https://www.facebook.com/IngramMicroNZ" target="_blank"><img alt="Facebook" border="0" class="fluid" height="26px" src="https://ingramnz.com/edm/template/footer_facebook.png" style="width:30px" width="30"> </a></td>
+                                                    <td valign="middle"><a href="https://www.instagram.com/ingrammicroinc" target="_blank"><img alt="Instagram" border="0" class="fluid" height="26px" src="https://ingramnz.com/edm/template/footer_instagram.png" style="width:30px" width="30"></a></td>
+                                                    <td valign="middle"><a href="https://twitter.com/ingrammicronz" target="_blank"><img alt="Twitter" border="0" class="fluid" height="26px" src="https://ingramnz.com/edm/template/footer_twitter.png" style="width: 30px" width="30"></a></td>
+                                                    <td valign="middle"><a href="https://www.youtube.com/@ingrammicronz4719" target="_blank"><img alt="alt_text" border="0" class="fluid" height="26px" src="https://ingramnz.com/edm/template/footer_youtube.png" style="width: 30px" width="30"></a></td>
+                                                    <td valign="middle"><a href="https://www.linkedin.com/company/ingram-micro/" target="_blank"><img alt="alt_text" border="0" class="fluid" height="26px" src="https://ingramnz.com/edm/template/footer_linkedin.png" style="width: 30px" width="30"></a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </td>
+                        </tr>
+                        <tr pardot-repeatable="" style="">
+                            <td align="center" class="footerContent" pardot-region="footer_content00" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #808080;text-align: center; font-size: 9.5px; line-height: 12px; font-family: arial, helvetica, sans-serif; padding: 20px 10px 0px;" valign="middle"><a href="https://ingramnz.com/im/nz_standard_terms_conditions.htm" style="color: #676767;text-decoration: none;">Standard terms and conditions apply</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://nz.ingrammicro.com/c/privacypolicy.aspx" style="padding: 0;color: #676767;text-decoration: none;">View our privacy policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="%%unsubscribe%%" style="color: #676767;padding-left: 0px;text-decoration: none;">Unsubscribe</a></td>
+                        </tr>
+                        <tr pardot-repeatable="" style="">
+                            <td align="center" class="footerContent" pardot-region="footer_content00" style="padding:8px 0;" valign="middle">
+                            <hr></td>
+                        </tr>
+                        <tr pardot-repeatable="" style="">
+                            <td align="left" class="footerContent" pardot-region="footer_content00" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #808080;font-size: 9.5px; line-height: 12px; font-family: arial, helvetica, sans-serif;text-align: left;padding: 0px 10px 20px 10px;" valign="top">This message was sent to you by Ingram Micro Pty Ltd. This email may contain material that is confidential, and proprietary to Ingram Micro, for the sole use of the intended recipient. Any review, reliance or distribution by others or forwarding without express permission is strictly prohibited. If you are not the intended recipient, please contact the sender and delete all copies. JOB NUMBER</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </center>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+<!-- Email Footer : END -->
+</body>
+</html>
